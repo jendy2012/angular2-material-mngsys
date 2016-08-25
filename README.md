@@ -20,7 +20,7 @@ Throughout the most popular front-end frameworks on the market,such as Extjs(Sen
 
 So, I am going to collect and maintain these components for you in this porject.
 
-  -- 集成BootStrap和Material Design，为每一个UI组件提供外观。
+  -集成BootStrap和Material Design，为每一个UI组件提供外观。
 
   -Integrate BootStrap and Material Design,provide the appearance for each component.
 
@@ -37,5 +37,5 @@ So, I am going to collect and maintain these components for you in this porject.
 # License
 该项目，包括后面会陆续做好的实例项目都采用MIT许可证，你可以任意修改、分发、商用，不用预先告知我。但是，请注意，因为个人精力所限，我不会为你们提供具体业务实现。
 
-This project,include the coming demo projects will under MIT license ,you can modify,distribute,or use them for commercial purpose,you need NOT inform me first.But,note that,I can NOT provide customized development for your specific business logics,because my energy is limited.
+This project,include the coming demo projects are under MIT license ,you can modify,distribute,or use them for commercial purpose,you need NOT inform me first.Note that I will NOT provide customized development for your specific business logics,because my energy is limited.
 
