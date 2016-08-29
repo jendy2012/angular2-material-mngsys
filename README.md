@@ -32,6 +32,13 @@ So, I am going to collect and maintain these components for you in this porject.
 
   -I will provide two demo projects base on these components,one for the public use and the other for the management system.I will implement these two demo as complete as possible,they will not as simple as those seed projects or TodoList projects.In real world development,these TodoList projects have no reference value at all.
 
+# 注意
+# HighLight
+
+Angular官方核心团队也在跟进Material Design相关的内容，我这里会与他们定期同步，注意，不是实时同步，我可能一个月同步修改一次。
+
+The core team of Angular is using Material Design too,I will sync this project with them.Please Note that,I will sync with the core team once a month,but not realtime sync.
+
 
 # 开源许可证
 # License
