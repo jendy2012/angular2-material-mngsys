@@ -2,13 +2,11 @@
 
 纵观当前市面上成熟的前端组件库，例如Extjs(Sench)与jQueryUI(包括EasyUI、Kissy等)，它们集成的UI组件数量都非常多。Extjs有250多个，EasyUI也有将近100个。在这些UI组件中，有一些是必备的，例如：Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar等。
 
-所以，我打算在这个项目中为大家封装并维护好这些日常开发中必备的组件。
+所以，我打算在这个项目中为大家维护好这些日常开发中必备的组件。
 
   - 集成Material Design，为每一个UI组件提供外观。
 
-  - 优先封装下列UI组件：Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar。
-
-  - 在提供的UI组件基础上，提供两个典型的项目实例：面向大众用户的门户型系统、面向行业应用的后台管理系统。我打算把这两个案例做得尽量完整，而不像很多seed项目或者TodoList那样简单，因为在真实的项目中，这种简单的TodoList压根没有什么参考价值。
+  - 提供两个典型的项目实例：面向大众用户的门户型系统、面向行业应用的后台管理系统。我打算把这两个案例做得尽量完整，而不像很多seed项目或者TodoList那样简单，因为在真实的项目中，这种简单的TodoList压根没有什么参考价值。
 
 ## 用法
 
@@ -42,8 +40,6 @@ Throughout the most popular front-end frameworks on the market,such as Extjs(Sen
 So, I am going to collect and maintain these components for you in this porject.
 
   - Integrate BootStrap and Material Design,provide the appearance for each component.
-
-  - These coponents will come first:Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar.
 
   - I will provide two demo projects base on these components,one for the public use and the other for the management system.I will implement these two demo as complete as possible,they will not as simple as those seed projects or TodoList projects.In real world development,these TodoList projects have no reference value at all.
 
