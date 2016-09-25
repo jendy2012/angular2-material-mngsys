@@ -12,13 +12,13 @@
 
 ## 用法
 
-	git clone https://github.com/damoqiongqiu/angular-material2-demo1.git
+	git clone https://github.com/damoqiongqiu/angular2-material-mngsys.git
 
 	npm install
 
 	npm install -g angular-cli
 
-	cd angular-material2-demo1
+	cd angular2-material-mngsys
 
 	ng serve
 
@@ -49,13 +49,13 @@ So, I am going to collect and maintain these components for you in this porject.
 
 ## Usage
 
-	git clone https://github.com/damoqiongqiu/angular-material2-demo1.git
+	git clone https://github.com/damoqiongqiu/angular2-material-mngsys.git
 
 	npm install
 	
 	npm install -g angular-cli
 
-	cd angular-material2-demo1
+	cd angular2-material-mngsys
 
 	ng serve
 
