@@ -16,6 +16,21 @@ Angular2是强大的，而且变得更加简单。Angular2最核心的概念只�
 
   -在提供的UI组件基础上，提供两个典型的项目实例：面向大众用户的门户型系统、面向行业应用的后台管理系统。我打算把这两个案例做得尽量完整，而不像很多seed项目或者TodoList那样简单，因为在真实的项目中，这种简单的TodoList压根没有什么参考价值。
 
+## 用法
+
+	git clone https://github.com/damoqiongqiu/angular-material2-demo1.git
+
+	npm install
+
+	npm install -g angular-cli
+
+	cd angular-material2-demo1
+
+	ng serve
+
+打开浏览器访问http://localhost:4200/
+
+如果能看到界面，说明成功，报一些小错误是正常的，因为官方还在开发中。
 
 # 注意
 
@@ -41,10 +56,26 @@ So, I am going to collect and maintain these components for you in this porject.
   -Integrate BootStrap and Material Design,provide the appearance for each component.
 
   -These coponents will come first:Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar.
-  
+
   -I will provide two demo projects base on these components,one for the public use and the other for the management system.I will implement these two demo as complete as possible,they will not as simple as those seed projects or TodoList projects.In real world development,these TodoList projects have no reference value at all.
 
-# HighLight
+## Usage
+
+	git clone https://github.com/damoqiongqiu/angular-material2-demo1.git
+
+	npm install
+	
+	npm install -g angular-cli
+
+	cd angular-material2-demo1
+
+	ng serve
+
+Open your browser and navigate to http://localhost:4200/
+
+If you can see the page,that means app works,there might be some errors,it's not a problem.
+
+# Note
 The core team of Angular is using Material Design too,I will sync this project with them.Please Note that,I will sync with the core team once a month,but not realtime sync.
 
 # License
