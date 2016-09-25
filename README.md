@@ -1,11 +1,5 @@
 # 我为什么要开启这个项目
 
-Angular2是强大的，而且变得更加简单。Angular2最核心的概念只剩下了Component，其它都是辅助。但是，在真正的项目中，只有Angular2内核是不够的，因为Angular2并没有提供开箱即用的组件库。这就导致不同企业的每一个开发团队都需要去积累、维护自己的组件库，从长远来看，这是非常浪费的。
-
-所以，我启动了这个项目，核心目的就是积累、封装、维护一套基于Angular2的开源组件库，把这些组件以一个管理系统雏形的方式展现出来。
-
-# 此项目的具体内容
-
 纵观当前市面上成熟的前端组件库，例如Extjs(Sench)与jQueryUI(包括EasyUI、Kissy等)，它们集成的UI组件数量都非常多。Extjs有250多个，EasyUI也有将近100个。在这些UI组件中，有一些是必备的，例如：Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar等。
 
 所以，我打算在这个项目中为大家封装并维护好这些日常开发中必备的组件。
@@ -42,12 +36,6 @@ Angular官方核心团队也在跟进Material Design相关的内容，我这里�
 
 
 # Why I started this project
-
-Angular2 is powerful,and becoming much more simple.The core concept of Angular2 is Component,other features are nothing more than utils.But,in the development in real world,core features of Angualr2 are not enough,because Angular2 did NOT provide UI components out of box.So,the dev teams in different companies have to collect and maintain their own components,this will waste a lot of money in a long term.
-
-So,I started this project,the core purpose is collect,encapsulate,and maintain a set of components of Angular2,and all these components are open source.
-
-# The specific content of this project
 
 Throughout the most popular front-end frameworks on the market,such as Extjs(Sencha)and jQueryUI(including EasyUI,Kissy and so on),they integrated a lot of UI components.Extjs has more than 250 components and EasyUI has about 100.Among these components,some of them are necessary during daily work,such as Grid/Tree/DateTimePicker/FormUtil/FormValidation/NavBar and so on.
 
