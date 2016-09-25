@@ -16,10 +16,18 @@ import {MdProgressBarModule} from '@angular2-material/progress-bar';
 import {MdTabsModule} from '@angular2-material/tabs';
 
 import { AppComponent } from './app.component';
+import { UserManagementComponent } from './user-management/user-management.component';
+import { RoleManagementComponent } from './role-management/role-management.component';
+import { PermissionManagementComponent } from './permission-management/permission-management.component';
+import { SearchBoxComponent } from './user-management/search-box/search-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserManagementComponent,
+    RoleManagementComponent,
+    PermissionManagementComponent,
+    SearchBoxComponent
   ],
   imports: [
     BrowserModule,
