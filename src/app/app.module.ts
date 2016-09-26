@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import {MdCardModule} from '@angular2-material/card';
 import {MdButtonToggleModule} from '@angular2-material/button-toggle';
@@ -20,6 +21,8 @@ import { UserManagementComponent } from './user-management/user-management.compo
 import { RoleManagementComponent } from './role-management/role-management.component';
 import { PermissionManagementComponent } from './permission-management/permission-management.component';
 import { SearchBoxComponent } from './user-management/search-box/search-box.component';
+import { HomeComponent } from './home/home.component';
+import { routerConfig } from './router-config';
 
 @NgModule({
   declarations: [
@@ -27,12 +30,14 @@ import { SearchBoxComponent } from './user-management/search-box/search-box.comp
     UserManagementComponent,
     RoleManagementComponent,
     PermissionManagementComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    RouterModule.forRoot(routerConfig),
     
     MdButtonModule,
     MdButtonToggleModule,

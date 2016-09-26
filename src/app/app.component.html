@@ -1,28 +1,16 @@
-<md-card>
-    <md-tab-group>
-        <md-tab>
-            <template md-tab-label>
-                User Management
-            </template>
-            <template md-tab-content>
-                <app-user-management></app-user-management>
-            </template>
-        </md-tab>
-        <md-tab>
-            <template md-tab-label>
-                Role Management
-            </template>
-            <template md-tab-content>
-                <app-role-management></app-role-management>
-            </template>
-        </md-tab>
-        <md-tab>
-            <template md-tab-label>
-                Permission Management
-            </template>
-            <template md-tab-content>
-                <app-permission-management></app-permission-management>
-            </template>
-        </md-tab>
-    </md-tab-group>
-</md-card>
+<md-sidenav-layout>
+    <md-sidenav #sidenav mode="side" class="app-sidenav">
+        Sidenav
+    </md-sidenav>
+    <md-toolbar color="primary">
+        <a routerLink="home">Home</a>&nbsp;&nbsp;
+        <a routerLink="usermng">UserManagement</a>&nbsp;&nbsp;
+        <a routerLink="rolemng">RoleManagement</a>&nbsp;&nbsp;
+        <a routerLink="permissionmng">PermissionManagement</a>
+    </md-toolbar>
+    <div class="app-content">
+        <md-card>
+            <router-outlet></router-outlet>
+        </md-card>
+    </div>
+</md-sidenav-layout>
